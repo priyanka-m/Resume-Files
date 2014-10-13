@@ -1,0 +1,153 @@
+\documentclass[margin,line]{res}
+\usepackage{graphicx} % needed for including graphics e.g. EPS, PS
+\usepackage{hyperref}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+%\fancyfoot[CE,CO]{\begin{center}\includegraphics[width=10cm,height=1.1cm]{logofull.jpg}\end{center}}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.15in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0.05in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.18in}}}{\end{list}}
+\begin{document}
+\newenvironment{list3}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0.07in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.18in}}}{\end{list}}
+\begin{document}
+
+
+%\begin{picture} \centerline{  \mbox{\includegraphics[width=4in]{new2_01.JPG}}}\end{picture}
+%==================================================================
+% Name 
+%==================================================================
+\name{ 
+\begin{picture} \mbox {\sc\LARGE Priyanka Menghani} \vspace*{.1in} \end{picture}
+}
+
+
+
+\begin{resume}
+
+%==================================================================
+% Write the address
+%==================================================================
+\section{\sc Contact Information}
+
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{6in}}
+6565, McCallum Boulevard            & {\it e-mail: \hspace{5pt}} {\ttfamily priyanka.menghani@gmail.com }\\	
+Apartment \#131		& {\it GitHub: \hspace{2pt}} {\ttfamily  www.github.com/priyanka-m}\\ 
+Dallas							  \\
+TX - 75252    \\
+	        				
+\end{tabular}
+%==================================================================
+% Write the Reasearch Areas/Interests
+%==================================================================
+\section{\sc Interests}
+Algorithms, Distributed Systems, Operating Systems, Web Technology
+%==================================================================
+% Write Complete Educational Detail With Percentages
+%==================================================================
+\section{\sc Education}
+
+{\bf University of Texas, Dallas}
+\begin{list1}
+\item[] Master of Science, Computer Science, (Aug 2014 -  Present)
+\end{list1}
+
+{\bf Banasthali University (Banasthali Vidyapeeth)}, Banasthali, Rajasthan (India)
+\begin{list1}
+\item[] Bachelor of Technology (B.Tech.), Computer Science, (2009 - 2013) { Aggregate: 73.79\%}
+\end{list1}
+
+\section{\sc Courses\\(Fall 2014)}
+
+\begin{list1}
+\item[] {\bf CS6363} Design and Analysis of Algorithms
+\item[] {\bf CS6380} Distributed Computing
+\item[] {\bf CS6364} Artificial Intelligence
+\end{list1}
+
+\section{\sc Work Experience}
+{\bf Zomato Media Pvt. Ltd.} \hfill {\bf Aug 2013 - Dec 2013} \\
+{Software Developer}
+\begin{list1}
+\item[] As a Software Developer with Zomato (India's top online restaurant discovery guide), my work spanned both the backend, as well as frontend of the website. 
+\begin{itemize}
+\item Added support for searching and indexing restaurants using Apache Solr. 
+\item Integrated Redis to support fast access of write-once read-many type data, such as likes / favorites, etc.
+\item Improved the News Feed by adding support for richer content such as restaurant and user pictures. This led to significant improvement in user engagement.
+\item Significantly rewrote multiple important components and flows, such as user profiles, profile deletion, etc.
+\item Created several tools for the administrators to monitor, add and edit content.
+\end{itemize}
+\end{list1}
+
+\section{\sc Internships / Selected Projects}
+{\bf OwnCloud Inc.} \hfill {\bf Sep 2012 - Dec 2012} \\
+{\bf eBook Reader}\\
+{\em Mentor: Frank Karlitschek (Chief Technology Officer, ownCloud Inc.) }
+\begin{list1}
+\item[] Worked on OwnCloud, an open-source software which lets users synchronize their data across devices ( free alternative to Dropbox and Google Drive).\\
+
+I developed an application that adds a special interface for viewing eBooks uploaded on OwnCloud, instead of a simple listing of files. The application is able to recognize eBooks amongs the files, displays a preview thumbnail, and lets the user read their book on the OwnCloud website itself, without having to download it again. Also, laid the groundwork to integrate the application with Google Books. This was primarily a front-end project. 
+
+\end{list1}
+
+{\bf Google Summer of Code 2012 - openSUSE Project} \hfill {\bf May 2012 - Aug 2012} \\
+{\bf Karma on openSUSE Connect}\\
+{\em Mentor: Michal Hrusecky (Software Engineer, SUSE Linux)}
+\begin{list1}
+\item[] Selected for Google Summer Of Code 2012 program, and worked on the openSUSE Project. During the summer, I developed a plugin for openSUSE's social portal called Connect (connect.opensuse.org), and implemented the concept of Karma, which is analgous to the 'Reputation' score on StackOverflow. \\ 
+	
+	On Connect, the users gain Karma by completing bug-fixes, Wiki entries, posts to the openSUSE blog, promoting openSUSE events on Twitter, etc. People can also send positive Karma across to others who have been supportive. On completion of certain activities, users are awarded badges. This project is currently deployed on Connect's website.
+\end{list1}
+
+{\bf Season of KDE 2011 - OwnCloud Inc.} \hfill {\bf May 2011 - Aug 2011} \\
+{\bf Synchronizing external data to OwnCloud }\\
+{\em Mentor: Jakob Sack }
+\begin{list1}
+\item[]  Selected for Season of KDE 2011. I worked on the OwnCloud project, to let users synchronize their data from closed services like Google Docs, Flickr, etc. to OwnCloud. This project required understanding the OwnCloud backend, and the APIs of different services, and implementing the actual synchronization code, apart from creating an easy-to-use front-end.\\
+\end{list1}
+\\
+{\bf Snaptab} \hfill {\bf Jan 2012 - Present}\\
+{\bf A Visual Social Network} \\
+{\em Course Project}
+\begin{list2}
+\item[] 
+We developed a social network application built around sharing pictures and videos. Users can add other users and can share their content with other users. Users get a news feed, and can respond to their friends / followers' content. The project required us to design and develop the back-end architecture, as well as the front-end.
+\end{list2}
+
+\section{Technologies}
+\begin{list1}
+\item[] {\bf Programming Languages:} C, C++, Java
+\item[] {\bf Web Technologies:} PHP, CSS, JavaScript
+\item[] {\bf Operating Systems:} Linux, Windows, MacOS
+\item[] {\bf Databases:} MySQL, Redis
+\item[] {\bf Miscellaneous:} Apache Solr 
+
+\end{resume}
+\section
+
+
+\end{document}
